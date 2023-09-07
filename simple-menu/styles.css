@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Luckiest+Guy&family=Mate+SC&family=Oleo+Script&display=swap');
+
+
+*{
+    font-family: 'Luckiest Guy', cursive;
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+   color: rgba(0, 0, 0, 0.422);
+    margin-top: 20px;
+    text-align: center;
+}
+.container{
+    margin-top: 20%;
+    padding: 20px;
+    background-color: rgb(241, 247, 247);
+    
+}
+.container ul{
+    position: relative;
+    margin: 10px;
+    text-align: center;
+}
+
+.container ul li{
+    width: 110px;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgba(238, 232, 170, 0.564);
+     
+}
+
+.container ul li a{
+  padding: 10px;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  border-radius: 3px;
+  box-shadow: 2px 4px 1px 2px;
+  border-radius: 2px;
+  
+}
+
+.container ul li a:hover{
+    box-shadow: -2px -4px 1px 2px;
+    border-radius: 2px;
+    font-weight: 500;
+}
